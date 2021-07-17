@@ -1,0 +1,36 @@
+.my-work-box {
+    margin-top: 4vh;
+    width: 150vh;
+    height: 85vh;
+}
+
+.wrapper {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+    "grid-1 grid-2 grid-3"
+    "grid-4 grid-5 grid-6"
+    "grid-7 grid-8 grid-9"; 
+}
+
+.grid-1 { grid-area: grid-1; }
+.grid-2 { grid-area: grid-2; }
+.grid-3 { grid-area: grid-3; }
+.grid-4 { grid-area: grid-4; }
+.grid-5 { grid-area: grid-5; }
+.grid-6 { grid-area: grid-6; }
+.grid-7 { grid-area: grid-7; }
+.grid-8 { grid-area: grid-8; }
+.grid-9 { grid-area: grid-9; }
+
+.img-grid {
+    width: 99%;
+    height: 99%;
+    border-style: solid;
+}
+
+.img-grid:hover {
+    transform: translateX()
+}

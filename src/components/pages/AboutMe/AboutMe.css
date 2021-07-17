@@ -1,0 +1,15 @@
+.container-1 {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-2 {
+    display: flex;
+}
+
+
+.item-1 {
+    margin-right: 20px;
+}
