@@ -1,0 +1,39 @@
+button{
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    color: black;
+    cursor: pointer;
+    font-size: 1.5rem;
+    line-height: 1.9rem;
+    font-weight: 300;
+}
+
+li {
+    margin-left: 15px;
+}
+
+.first-li {
+    margin-top: 20px;
+}
+
+button:hover:after {
+    animation: glitch-animation 2s infinite linear alternate-reverse;
+    clip: rect( 0, 900px, 0, 0 );
+    color: black;
+    content: attr(title);
+    left: 6px;
+    overflow: hidden;
+    position: absolute;
+    text-shadow: -1px 0 red;
+}
+
+button:hover:before {
+    animation: glitch-animation-2 3s infinite linear alternate-reverse;
+    clip: rect( 0, 900px, 0, 0 );
+    color: black;
+    content: attr(title);
+    overflow: hidden;
+    position: absolute;
+    text-shadow: 1px 0 blue;
+}
