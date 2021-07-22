@@ -1,6 +1,6 @@
 import React from 'react';
 import './UlButtons.css'
-const CVlink = "https://drive.google.com/file/d/1yW0j-lHdHhhwv_YZQRIoe5tH25SuOlHa/view"
+const CVlink = "https://www.linkedin.com/in/viktor-agust%C3%ADn-luzny-41529617a/"
 
 const UlButtons = ({ handlerFunction }) => {
     return (
