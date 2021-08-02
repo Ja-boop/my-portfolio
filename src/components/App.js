@@ -26,9 +26,9 @@ function App() {
         <div className="container">
             <div className="sidebar">
                 <ul className="cybr-ul">
-                    <UlButtons 
+                    <UlButtons>
                     handlerFunction={(event) => {setCurrentPage(event.target.getAttribute('name'))}} 
-                    />
+                    </UlButtons> 
                     <div className="icons">
                         <FontAwesomeIcon icon={faLinkedin} className="fa-3x space-icons" />
                         <FontAwesomeIcon icon={faGithub} className="fa-3x" />

@@ -21,11 +21,21 @@ const AboutMe = () => {
                             <li>Bootstrap</li>
                             <li>Nunjucks</li>
                             <li>Handlebars</li>
-                            <li>GitHub</li>
                         </ul>
                     </div>
                 </div>
-                <div className="box item-1">
+                <div className="box">
+                    <h2 className="cyberpunk glitched" title="Testing">Testing</h2>
+                    <div>
+                        <ul>
+                            <li>Jest (Pruebas unitarias)</li>
+                            <li>Cypress (Pruebas de integracion)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div>
+            <div className="box item-1">
                     <h2 className="cyberpunk glitched" title="Back End">Back End</h2>
                     <div>
                         <ul>
@@ -34,20 +44,8 @@ const AboutMe = () => {
                         </ul>
                     </div>
                 </div>
-                <div className="box">
-                    <h2 className="cyberpunk glitched" title="API y Testing">API y Testing</h2>
-                    <div>
-                        <ul>
-                            <li><p>Conocimiento de RESTFul
-                                APIs y conceptos de
-                                metodologías Ágiles.</p>
-                            </li>
-                            <li>Jest (Pruebas unitarias)</li>
-                            <li>Cypress (Pruebas de integracion)</li>
-                        </ul>
-                    </div>
-                </div>
             </div>
+            
         </div>
     )
 }

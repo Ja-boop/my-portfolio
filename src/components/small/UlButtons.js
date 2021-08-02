@@ -9,7 +9,7 @@ const UlButtons = ({ handlerFunction }) => {
             <hr />
             <li><button name="myWork" title="MY WORK" onClick={handlerFunction}>MY WORK</button></li>
             <hr />
-            <li><a title="CV" href={CVlink} target="_blank" rel="noreferrer">CV</a></li>
+            <li><a title="LINKEDIN" href={CVlink} target="_blank" rel="noreferrer">LINKEDIN</a></li>
             <hr />
             <li><button title="CONTACT ME">CONTACT ME</button></li>
             <hr />
