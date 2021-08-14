@@ -2,7 +2,6 @@ import React from 'react';
 import './MyWork.css'
 import '../../css/cybrTheme.css'
 import rentCarImg from './img/rent-a-car.png'
-import nothingHereImg from './img/rent-a-car.png'
 
 const MyWork = () => {
     return (
@@ -10,7 +9,7 @@ const MyWork = () => {
             <div className="grid-1 grid-is-centered">
                 <img src={rentCarImg} alt="rent car" className="img-grid"></img>
                 <div className="project-links-1 links-overlay">
-                    <a href="https://www.w3schools.com" target="_blank" rel="noreferrer" className="project-links-style" title="DEMO">DEMO</a>
+                    <a href="https://www.youtube.com/playlist?list=PLROIQdlFrORqtQ8P_Y9BN93bJYiNfXH1m" target="_blank" rel="noreferrer" className="project-links-style" title="DEMO">DEMO</a>
                 </div>
                 <div className="project-links-2 links-overlay">
                     <a href="https://github.com/Ja-boop/rent-a-car" target="_blank" rel="noreferrer" className="project-links-style" title="GITHUB">GITHUB</a>

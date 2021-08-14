@@ -7,13 +7,19 @@
 
 .container-2 {
     margin-top: -50px;
-    display: flex;
-    align-content: space-between;
-    flex-direction: row;
 }
 
+.skill-ul {
+    font-size: 27px;
+    margin-right: 50px;
+    text-align: center;
+}
 
+.skill-ul li {
+    margin-bottom: 10px;
+}
 
 .item-1 {
     margin-right: 20px;
+    width: 333.33px;
 }

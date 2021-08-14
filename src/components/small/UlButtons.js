@@ -1,5 +1,5 @@
 import React from 'react';
-import './UlButtons.css'
+import './UlButtons.css';
 const CVlink = "https://www.linkedin.com/in/viktor-agust%C3%ADn-luzny-41529617a/"
 
 const UlButtons = ({ handlerFunction }) => {

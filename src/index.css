@@ -6,6 +6,11 @@
 
 body * {
   font-family: 'Cyber', sans-serif;
+  
+}
+
+ul {
+  list-style-type: none;
 }
 
 body {

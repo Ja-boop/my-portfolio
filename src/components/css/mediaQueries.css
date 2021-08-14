@@ -1,0 +1,45 @@
+@media only screen and (max-width: 1320px) {
+  .skill-box {
+    width: 900px;
+  }
+
+  .cybr-ul {
+    width: 250px;
+  }
+}
+
+@media only screen and (max-width: 1220px) {
+  .skill-box {
+    width: 700px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .container-1 {
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+
+  .skill-box {
+    margin: auto;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  .cybr-ul {
+    display: none;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .skill-box {
+    width: 400px;
+    overflow: auto;
+    flex-direction: column;
+  }
+   
+}

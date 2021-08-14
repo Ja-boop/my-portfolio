@@ -3,10 +3,11 @@ import AboutMe from './pages/AboutMe/AboutMe';
 import MyWork from './pages/MyWork/MyWork';
 import UlButtons from './small/UlButtons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import './App.css'
 import './css/SideBar.css';
 import './css/icons.css';
+import './css/mediaQueries.css'
 
 const pages = {
     aboutMe: {
@@ -26,11 +27,8 @@ function App() {
         <div className="container">
             <div className="sidebar">
                 <ul className="cybr-ul">
-                    <UlButtons>
-                    handlerFunction={(event) => {setCurrentPage(event.target.getAttribute('name'))}} 
-                    </UlButtons> 
+                    <UlButtons handlerFunction={(event) => {setCurrentPage(event.target.getAttribute('name'))}} / >
                     <div className="icons">
-                        <FontAwesomeIcon icon={faLinkedin} className="fa-3x space-icons" />
                         <FontAwesomeIcon icon={faGithub} className="fa-3x" />
                     </div>
                 </ul>
