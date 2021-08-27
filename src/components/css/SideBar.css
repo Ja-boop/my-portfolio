@@ -17,15 +17,14 @@
 }
 
 .cybr-ul {
+    width: 330px;
     list-style-type: none;
     margin: 2em;
     margin-left: 0.5em;
     padding: 0;
-    width: 35.5vh;
     background-color: #f1f1f1;
-    position: relative;
-    height: 85.5vh;
-    overflow: auto;
+    position: fixed;
+    height: 800px;
     border: 30px solid #000;
     border-left: 5px solid #000;
     border-right: 5px solid #000;
@@ -43,4 +42,15 @@
         10px calc(100% - 0px),
         0% calc(100% - 10px)
     );
+    transition: 0.4s;
+}
+
+.cybr-ul-close {
+    display: block;
+}
+
+.li-container {
+    align-items: center;
+    width: 330px;
+    position: fixed;
 }

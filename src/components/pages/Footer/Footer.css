@@ -1,0 +1,44 @@
+.footer-icons {
+    display: none;
+}
+
+.footer {
+    width: 100%;
+    height: 350px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer a, p {
+    color: white;
+}
+
+.footer-thanks {
+    width: 50%;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: end;
+    margin-right: 100px;
+    justify-content: space-evenly
+}
+
+.footer-links h2 {
+    color: white;
+    width: 100%;
+}
+
+.footer-links h2:before {
+    width: 0;
+}
+
+.footer p {
+    margin-top: 40px;
+    margin-left: 50px;
+    font-size: 20px;
+    margin-right: 390px;
+}

@@ -6,7 +6,7 @@ const AboutMe = () => {
     return (
         <div>
             <div className="container-1">
-                <h1>Hola, soy Viktor!</h1>
+                <h1 className="cyberpunk">Hola, soy Viktor!</h1>
                 <h2 className="title-is-h2">Estudio desarrollo web, y me encanta la idea de crear aplicaciones y aprender tecnologias nuevas.</h2>
             </div>
             <div className="container-2">

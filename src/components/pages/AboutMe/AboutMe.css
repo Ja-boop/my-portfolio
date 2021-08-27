@@ -1,4 +1,5 @@
 .container-1 {
+    text-align: center;
     margin-top: 30px;
     margin-bottom: 50px;
     display: flex;
@@ -6,7 +7,7 @@
 }
 
 .container-2 {
-    margin-top: -50px;
+    margin-top: -20px;
 }
 
 .skill-ul {
@@ -20,6 +21,5 @@
 }
 
 .item-1 {
-    margin-right: 20px;
-    width: 333.33px;
+    width: 33.33%
 }

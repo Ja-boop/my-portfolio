@@ -1,0 +1,131 @@
+@media only screen and (max-width: 1850px) {
+    .footer-thanks {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 1700px) {
+    .footer-thanks {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 1597px) {
+    .footer-thanks {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1409px) {
+    .footer p {
+        margin-right: 370px;
+    }
+}
+
+@media only screen and (max-width: 1379px) {
+    .footer p {
+        margin-right: 340px;
+    }
+}
+
+@media only screen and (max-width: 1339px) {
+    .footer p {
+        margin-right: 300px;
+    }
+}
+
+@media only screen and (max-width: 1304px) {
+    .footer p {
+        margin-right: 300px;
+    }
+}
+
+@media only screen and (max-width: 1274px) {
+    .footer p {
+        margin-right: 290px;
+    }
+}
+
+@media only screen and (max-width: 1259px) {
+    .footer p {
+        margin-right: 270px;
+    }
+}
+
+@media only screen and (max-width: 1259px) {
+    .footer p {
+        margin-right: 250px;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .footer p {
+        margin-right: 200px;
+    }
+}
+
+@media only screen and (max-width: 1124px) {
+    .footer p {
+        margin-right: 150px;
+    }
+}
+
+@media only screen and (max-width: 1049px) {
+    .footer p {
+        margin-right: 100px;
+    }
+}
+
+@media only screen and (max-width: 974px) {
+    .footer p {
+        margin-right: 50px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .footer p {
+        margin-right: 0px;
+    }
+}
+
+@media only screen and (max-width: 824px) {
+    .footer p {
+        margin-right: -50px;
+    }
+}
+
+@media only screen and (max-width: 749px) {
+    .footer p {
+        margin-bottom: -10px;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .footer-links {
+        margin-right: 20px;
+    }
+}
+
+@media only screen and (max-width: 568px) {
+    .footer {
+        height: 150px;
+    }
+
+    .footer-links {
+        width: 0;
+        display: none;
+    }
+
+    .footer-thanks {
+        width: 0;
+        display: none;
+    }
+
+    .footer-icons {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
