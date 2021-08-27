@@ -1,0 +1,142 @@
+@media only screen and (max-width: 1330px) {
+  .wrapper {
+    grid-template-columns: 360px 360px;
+    grid-template-rows: 296px 296px 296px;  
+    gap: 30px 30px; 
+    grid-template-areas: 
+    "grid-1 grid-2"
+    "grid-3 grid-4"
+    "grid-5 grid-6"; 
+  }
+  
+}
+
+@media only screen and (max-width: 1130px) {
+  .container-1 {
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .skill-box {
+    width: 80%;
+    margin: auto;
+    height: 500px;
+  }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+ 
+  .wrapper {
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 256px 256px 256px;  
+    gap: 15px 15px; 
+  }
+
+  .container-2 {
+    margin-top: 50px;
+    margin-bottom: -50px;
+  }
+
+  .skill-box {
+    margin: auto;
+    flex-direction: row;
+
+  }
+
+  .work-container {
+    width: 100%;
+    margin-top: 100px;
+  }
+
+  .projects-title {
+    width: 360px;
+  }
+
+}
+
+@media only screen and (max-width: 656px) {
+  .wrapper {
+    grid-template-columns: 315px;
+    grid-template-rows: 296px 296px 296px 296px 296px 296px;  
+    grid-template-areas: 
+    "grid-1"
+    "grid-2"
+    "grid-3"
+    "grid-4"
+    "grid-5"
+    "grid-6"; 
+  }
+
+  .container-1 {
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+
+  .container-2 {
+    margin: auto;
+  }
+
+  .skill-box {
+    margin: auto;
+    flex-direction: column;
+    width: 90%;
+    height: 1050px;
+  }
+
+  .work-container {
+    width: 310px;
+    margin-top: 100px;
+  }
+
+  .item-1 {
+    width: 100%;
+  }
+}
+
+
+
+@media only screen and (max-width: 425px) {
+  h1.cyberpunk:before {
+    width: 90%;
+  }
+
+  .wrapper {
+    grid-template-columns: 315px;
+    grid-template-rows: 296px 296px 296px 296px 296px 296px;  
+    grid-template-areas: 
+    "grid-1"
+    "grid-2"
+    "grid-3"
+    "grid-4"
+    "grid-5"
+    "grid-6"; 
+  }
+
+  .container-1 {
+    text-align: center;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .container-2 {
+    margin-top: 0px;
+    width: 100%;
+  }
+
+  .skill-box {
+    margin: auto;
+    flex-direction: column;
+    height: 1050px;
+  }
+
+  .work-container {
+    margin-top: 100px;
+  }
+
+  .projects-title {
+    width: 300px;
+  }
+}

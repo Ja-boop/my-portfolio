@@ -6,6 +6,19 @@
 
 body * {
   font-family: 'Cyber', sans-serif;
+  
+}
+
+.hiddeNavMenu {
+  display: none;
+}
+
+.showNavMenu {
+  display: block;
+}
+
+ul {
+  list-style-type: none;
 }
 
 body {
