@@ -4,7 +4,8 @@ import { render } from '@testing-library/react';
 import AboutMe from './AboutMe';
 
 test('renders AboutMe', () => {
-    const component = render(<AboutMe />)
+    const titulo = 'titulo'
+    const component = render(<AboutMe titulo={titulo} />)
 
-    expect(true).toBe(true)
+    component.getByText(titulo)
 });

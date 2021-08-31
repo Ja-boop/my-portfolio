@@ -3,6 +3,14 @@ import './MyWork.css'
 import '../../css/cybrTheme.css'
 import rentCarImg from './img/rent-a-car.png'
 
+const NothingHere = () => {
+    return (
+        <div className="nothing-here-container textcybrborder">
+            <h2 className="cyberpunk glitched">Proximamente!</h2>
+        </div>
+    )
+};
+
 const MyWork = () => {
     return (
         <div className="work-container">
@@ -21,33 +29,23 @@ const MyWork = () => {
                     </div>
                 </div>
                 <div className="grid-2 grid-is-centered work-box">
-                    <div className="nothing-here-container textcybrborder">
-                        <h2 className="cyberpunk glitched">Proximamente!</h2>
-                    </div>             
+                    <NothingHere />
                 </div>
                 <div className="grid-3 grid-is-centered work-box">
-                    <div className="nothing-here-container textcybrborder">
-                        <h2 className="cyberpunk glitched">Proximamente</h2>
-                    </div> 
+                    <NothingHere />
                 </div>
                 <div className="grid-4 grid-is-centered work-box">
-                    <div className="nothing-here-container textcybrborder">
-                        <h2 className="cyberpunk glitched">Proximamente</h2>
-                    </div> 
+                    <NothingHere />
                 </div>
                 <div className="grid-5 grid-is-centered work-box">
-                    <div className="nothing-here-container textcybrborder">
-                        <h2 className="cyberpunk glitched">Proximamente</h2>
-                    </div> 
+                    <NothingHere />
                 </div>
                 <div className="grid-6 grid-is-centered work-box">
-                    <div className="nothing-here-container textcybrborder">
-                        <h2 className="cyberpunk glitched">Proximamente</h2>
-                    </div> 
+                    <NothingHere />
                 </div>
             </div>
         </div>
     )
-}
+};
 
 export default MyWork;
