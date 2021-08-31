@@ -3,6 +3,13 @@ import './MyWork.css'
 import '../../css/cybrTheme.css'
 import rentCarImg from './img/rent-a-car.png'
 
+const firstProject = {
+    image: rentCarImg,
+    alt: 'rent a car',
+    demo: 'https://www.youtube.com/playlist?list=PLROIQdlFrORqtQ8P_Y9BN93bJYiNfXH1m',
+    github: 'https://github.com/Ja-boop/rent-a-car'
+};
+
 const NothingHere = () => {
     return (
         <div className="nothing-here-container textcybrborder">
@@ -10,6 +17,20 @@ const NothingHere = () => {
         </div>
     )
 };
+
+const Project = (props) => {
+    return (
+        <React.Fragment>
+            <img src={props.image} alt={props.alt} className="img-grid"></img>
+            <div className="project-links-1 links-overlay">
+                <a href={props.demoLink} target="_blank" rel="noreferrer" className="project-links-style" title="DEMO">DEMO</a>
+            </div>
+            <div className="project-links-2 links-overlay">
+                <a href={props.githubLink} target="_blank" rel="noreferrer" className="project-links-style" title="GITHUB">GITHUB</a>
+            </div>
+        </React.Fragment>
+    )
+}
 
 const MyWork = () => {
     return (
@@ -20,13 +41,7 @@ const MyWork = () => {
 
             <div className="my-work-box wrapper">
                 <div className="grid-1 grid-is-centered work-box">
-                    <img src={rentCarImg} alt="rent car" className="img-grid"></img>
-                    <div className="project-links-1 links-overlay">
-                        <a href="https://www.youtube.com/playlist?list=PLROIQdlFrORqtQ8P_Y9BN93bJYiNfXH1m" target="_blank" rel="noreferrer" className="project-links-style" title="DEMO">DEMO</a>
-                    </div>
-                    <div className="project-links-2 links-overlay">
-                        <a href="https://github.com/Ja-boop/rent-a-car" target="_blank" rel="noreferrer" className="project-links-style" title="GITHUB">GITHUB</a>
-                    </div>
+                    <Project image={firstProject.image} alt={firstProject.alt} demoLink={firstProject.demo} githubLink={firstProject.github} />
                 </div>
                 <div className="grid-2 grid-is-centered work-box">
                     <NothingHere />
