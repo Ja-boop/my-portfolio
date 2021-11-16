@@ -11,10 +11,8 @@ const Footer = () => {
     return (
         <footer className="footer">
             <div className="footer-thanks">
-                <p>A Fabricio por haber creado este gran curso, sacrificando mucho de su tiempo</p>
-                <p>Por crear una comunidad donde nos ayudamos entre nosotros y también a las nuevas personas que entran</p>
-                <p>Y como él y mucha gente en Internet que comparte sus conocimientos sin pedir nada a cambio</p>
-                <p>Muchas gracias</p>
+                <p>A Fabricio y a toda la comunidad de r/argentina-programa</p>
+                <p>¡Muchas gracias!</p>
             </div>
             <div className="footer-links">
                 <h2 className="cyberpunk">Linkedin</h2>
