@@ -4,8 +4,8 @@ import Footer from './pages/Footer/Footer';
 import './App.css'
 import './css/mediaQueries.css'
 
-const titulo = 'Hola, soy Viktor!';
-const introduccion = "Estudio desarrollo web, y me encanta la idea de crear aplicaciones y aprender tecnologias nuevas.";
+const titulo = '¡Hola, soy Víktor!';
+const introduccion = "Estudio desarrollo web, y me encanta la idea de crear aplicaciones y aprender tecnologías nuevas.";
 
 function App() {
     return (

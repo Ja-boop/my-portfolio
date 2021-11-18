@@ -4,7 +4,7 @@ import '../../css/cybrTheme.css';
 
 const frontEnd = ['JavaScript', 'HTML', 'CSS', 'React', 'Bulma', 'Bootstrap', 'Nunjucks', 'Handlebars'];
 const backEnd = ['NodeJs (ES6 Modules)', 'SQlite', 'Express', 'Sequelize'];
-const testing = ['Jest (Pruebas unitarias)', 'Cypress (Pruebas de integracion)']
+const testing = ['Jest (Pruebas unitarias)', 'Cypress (Pruebas de integración)']
 
 const SkillContainer = (props) => {
     return (

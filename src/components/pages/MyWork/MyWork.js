@@ -21,7 +21,7 @@ const secondProject = {
 const NothingHere = () => {
     return (
         <div className="nothing-here-container textcybrborder">
-            <h2 className="cyberpunk glitched">Proximamente!</h2>
+            <h2 className="cyberpunk glitched">¡Próximamente!</h2>
         </div>
     )
 };
