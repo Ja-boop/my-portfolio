@@ -15,14 +15,20 @@ const Footer = () => {
                 <p>¡Muchas gracias!</p>
             </div>
             <div className="footer-links">
-                <h2 className="cyberpunk"><a href="https://www.linkedin.com/in/viktor-agust%C3%ADn-luzny-41529617a/">Linkedin</a></h2>
-                <h2 className="cyberpunk"><a href="https://github.com/Ja-boop">GitHub</a></h2>
-                <h2 className="cyberpunk"><a href="mailto:viktor.luzny@gmail.com">Email</a></h2>
+                <h2 className="cyberpunk"><a href="https://www.linkedin.com/in/viktor-agust%C3%ADn-luzny-41529617a/" target="_blank" rel="noreferrer" >Linkedin</a></h2>
+                <h2 className="cyberpunk"><a href="https://github.com/Ja-boop" target="_blank" rel="noreferrer" >GitHub</a></h2>
+                <h2 className="cyberpunk"><a href="mailto:viktor.luzny@gmail.com" target="_blank" rel="noreferrer" >Email</a></h2>
             </div>
-            <div className="footer-icons">  
-                <FontAwesomeIcon icon={faLinkedin} color="white" size="5x" href="https://www.linkedin.com/in/viktor-agust%C3%ADn-luzny-41529617a/" />
-                <FontAwesomeIcon icon={faGithub} color="white" size="5x" href="https://github.com/Ja-boop" />
-                <FontAwesomeIcon icon={faEnvelopeSquare} color="white" size="5x" href="mailto:viktor.luzny@gmail.com" />
+            <div className="footer-icons">
+                <a href="https://www.linkedin.com/in/viktor-agust%C3%ADn-luzny-41529617a/" target="_blank" rel="noreferrer" >
+                    <FontAwesomeIcon icon={faLinkedin} color="white" size="3x" />
+                </a>
+                <a href="https://github.com/Ja-boop" target="_blank" rel="noreferrer"  >
+                    <FontAwesomeIcon icon={faGithub} color="white" size="3x" />
+                </a>
+                <a href="mailto:viktor.luzny@gmail.com" target="_blank" rel="noreferrer"  >
+                    <FontAwesomeIcon icon={faEnvelopeSquare} color="white" size="3x" />
+                </a>
             </div>
         </footer>
     )

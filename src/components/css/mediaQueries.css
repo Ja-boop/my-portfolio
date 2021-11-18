@@ -58,6 +58,18 @@
 }
 
 @media only screen and (max-width: 656px) {
+  .header-container {
+    justify-content: space-around;
+  }
+
+  .header-div-links {
+    width: 350px;
+  }
+
+  .header-div-text {
+    display: none;
+  }
+
   .wrapper {
     grid-template-columns: 315px;
     grid-template-rows: 296px 296px 296px 296px 296px 296px;  
