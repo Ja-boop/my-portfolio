@@ -1,13 +1,21 @@
 import React from 'react';
-import './MyWork.css'
-import '../../css/cybrTheme.css'
-import rentCarImg from './img/rent-a-car.png'
+import './MyWork.css';
+import '../../css/cybrTheme.css';
+import rentCarImg from './img/rent-a-car.png';
+import pokedexReactImg from './img/pokedex-react.png';
 
 const firstProject = {
     image: rentCarImg,
     alt: 'rent a car',
     demo: 'https://www.youtube.com/playlist?list=PLROIQdlFrORqtQ8P_Y9BN93bJYiNfXH1m',
     github: 'https://github.com/Ja-boop/rent-a-car'
+};
+
+const secondProject = {
+    image: pokedexReactImg,
+    alt: 'pokedex',
+    demo: 'https://ja-boop.github.io/pokedex-react/',
+    github: 'https://github.com/Ja-boop/pokedex-react',
 };
 
 const NothingHere = () => {
@@ -44,7 +52,7 @@ const MyWork = () => {
                     <Project image={firstProject.image} alt={firstProject.alt} demoLink={firstProject.demo} githubLink={firstProject.github} />
                 </div>
                 <div className="grid-2 grid-is-centered work-box">
-                    <NothingHere />
+                    <Project image={secondProject.image} alt={secondProject.alt} demoLink={secondProject.demo} githubLink={secondProject.github} />
                 </div>
                 <div className="grid-3 grid-is-centered work-box">
                     <NothingHere />
